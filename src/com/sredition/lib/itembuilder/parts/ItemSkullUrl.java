@@ -1,4 +1,4 @@
-package com.nuvemplugins.lib.itembuilder.parts;
+package com.sredition.lib.itembuilder.parts;
 
 import java.lang.reflect.Field;
 import java.util.UUID;

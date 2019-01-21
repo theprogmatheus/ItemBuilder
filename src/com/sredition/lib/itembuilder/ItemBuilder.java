@@ -1,17 +1,17 @@
-package com.nuvemplugins.lib.itembuilder;
+package com.sredition.lib.itembuilder;
 
 import java.util.Arrays;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import com.nuvemplugins.lib.itembuilder.parts.ItemEffect;
-import com.nuvemplugins.lib.itembuilder.parts.ItemEnchant;
-import com.nuvemplugins.lib.itembuilder.parts.ItemGlow;
-import com.nuvemplugins.lib.itembuilder.parts.ItemLore;
-import com.nuvemplugins.lib.itembuilder.parts.ItemName;
-import com.nuvemplugins.lib.itembuilder.parts.ItemSkull;
-import com.nuvemplugins.lib.itembuilder.parts.ItemSkullUrl;
+import com.sredition.lib.itembuilder.parts.ItemEffect;
+import com.sredition.lib.itembuilder.parts.ItemEnchant;
+import com.sredition.lib.itembuilder.parts.ItemGlow;
+import com.sredition.lib.itembuilder.parts.ItemLore;
+import com.sredition.lib.itembuilder.parts.ItemName;
+import com.sredition.lib.itembuilder.parts.ItemSkull;
+import com.sredition.lib.itembuilder.parts.ItemSkullUrl;
 
 public class ItemBuilder {
 	private ItemStack itemStack;

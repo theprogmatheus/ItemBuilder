@@ -1,4 +1,4 @@
-package com.nuvemplugins.lib.itembuilder.parts;
+package com.sredition.lib.itembuilder.parts;
 
 import org.bukkit.inventory.ItemStack;
 
