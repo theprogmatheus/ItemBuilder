@@ -1,2 +1,2 @@
-# ItemBuilder
-Uma biblioteca básica, para criação de ItemStack a partir de uma string.
+# ItemBuilder 1.8.8
+A basic library for creating ItemStack from a string.
