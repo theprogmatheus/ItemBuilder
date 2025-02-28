@@ -1,4 +1,4 @@
-package com.sredition.lib.itembuilder.parts;
+package com.github.theprogmatheus.minecraft.utils.itembuilder.parts;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;

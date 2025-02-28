@@ -1,4 +1,4 @@
-package com.sredition.lib.itembuilder.parts;
+package com.github.theprogmatheus.minecraft.utils.itembuilder.parts;
 
 import org.bukkit.inventory.ItemStack;
 
@@ -8,7 +8,7 @@ public class ItemName implements ItemPart {
 	public ItemName(String constructor) {
 		try {
 			if (constructor.startsWith("name:")) {
-				this.name = constructor.replace("name:", "").replace("&", "§").replace("_", " ");
+				this.name = constructor.replace("name:", "").replace("&", "ï¿½").replace("_", " ");
 			}
 		} catch (Exception localException) {
 		}

@@ -1,17 +1,17 @@
-package com.sredition.lib.itembuilder;
+package com.github.theprogmatheus.minecraft.utils.itembuilder;
 
 import java.util.Arrays;
 
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
-import com.sredition.lib.itembuilder.parts.ItemEffect;
-import com.sredition.lib.itembuilder.parts.ItemEnchant;
-import com.sredition.lib.itembuilder.parts.ItemGlow;
-import com.sredition.lib.itembuilder.parts.ItemLore;
-import com.sredition.lib.itembuilder.parts.ItemName;
-import com.sredition.lib.itembuilder.parts.ItemSkull;
-import com.sredition.lib.itembuilder.parts.ItemSkullUrl;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemEffect;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemEnchant;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemGlow;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemLore;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemName;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemSkull;
+import com.github.theprogmatheus.minecraft.utils.itembuilder.parts.ItemSkullUrl;
 
 public class ItemBuilder {
 	private ItemStack itemStack;

@@ -1,4 +1,4 @@
-package com.sredition.lib.itembuilder.parts;
+package com.github.theprogmatheus.minecraft.utils.itembuilder.parts;
 
 import java.lang.reflect.Field;
 import java.util.UUID;
@@ -18,7 +18,7 @@ public class ItemSkullUrl implements ItemPart {
 	public ItemSkullUrl(String constructor) {
 		try {
 			if (constructor.startsWith("skullurl:")) {
-				this.name = constructor.replace("skullurl:", "").replace("&", "§");
+				this.name = constructor.replace("skullurl:", "").replace("&", "ï¿½");
 			}
 		} catch (Exception localException) {
 		}
