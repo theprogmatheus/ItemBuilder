@@ -1,4 +1,4 @@
-# 🧱 ItemBuilder (Spigot API)
+# 🧱 ItemBuilder (Spigot API 1.21)
 
 Crie `ItemStacks` no Spigot de forma rápida, poderosa e a partir de **strings simples e expressivas**. Perfeito para plugins customizados, sistemas de menus, ou configurações por arquivo!
 
