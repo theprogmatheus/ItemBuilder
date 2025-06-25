@@ -10,14 +10,6 @@ public class ItemEnchant implements ItemPart {
 		try {
 			if (constructor.contains(":")) {
 				constructor = constructor.toUpperCase();
-				constructor = constructor.replace("SHARPNESS", "DAMAGE_ALL");
-				constructor = constructor.replace("UNBREAKING", "DURABILITY");
-				constructor = constructor.replace("FORTUNE", "LOOT_BONUS_BLOCKS");
-				constructor = constructor.replace("LOOTING", "LOOT_BONUS_MOBS");
-				constructor = constructor.replace("EFFICIENCY", "DIG_SPEED");
-				constructor = constructor.replace("POWER", "ARROW_DAMAGE");
-				constructor = constructor.replace("INFINITY", "ARROW_INFINITE");
-				constructor = constructor.replace("PROTECTION", "PROTECTION_ENVIRONMENTAL");
 				String[] split = constructor.split(":");
 				this.enchant = org.bukkit.enchantments.Enchantment.getByName(split[0]);
 				this.level = Integer.valueOf(split[1]);
