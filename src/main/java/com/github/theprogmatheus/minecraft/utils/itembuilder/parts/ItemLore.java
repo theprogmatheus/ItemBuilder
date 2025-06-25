@@ -8,7 +8,7 @@ public class ItemLore implements ItemPart {
 	public ItemLore(String constructor) {
 		try {
 			if (constructor.startsWith("lore:")) {
-				this.lore = constructor.replace("lore:", "").replace("&", "�").replace("_", " ");
+				this.lore = constructor.replace("lore:", "").replace("&", "§").replace("_", " ");
 			}
 		} catch (Exception localException) {
 		}
