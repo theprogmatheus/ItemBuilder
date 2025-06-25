@@ -26,7 +26,7 @@ public class ItemSkullUrl implements ItemPart {
 
 	public void send(ItemStack item) {
 		if ((item != null) && (!item.getType().equals(org.bukkit.Material.AIR))
-				&& (item.getType().equals(org.bukkit.Material.SKULL_ITEM)) && (item.getDurability() == 3)
+				&& (item.getType().equals(org.bukkit.Material.PLAYER_HEAD)) && (item.getDurability() == 3)
 				&& (this.getName() != null)) {
 
 			try {

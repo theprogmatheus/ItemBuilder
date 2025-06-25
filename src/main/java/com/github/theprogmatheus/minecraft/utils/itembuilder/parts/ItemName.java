@@ -8,7 +8,7 @@ public class ItemName implements ItemPart {
 	public ItemName(String constructor) {
 		try {
 			if (constructor.startsWith("name:")) {
-				this.name = constructor.replace("name:", "").replace("&", "�").replace("_", " ");
+				this.name = constructor.replace("name:", "").replace("&", "§").replace("_", " ");
 			}
 		} catch (Exception localException) {
 		}

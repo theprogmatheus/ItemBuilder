@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84164c56-b39b-49df-80a1-cce3120d3489" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/ItemBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemEffect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemEnchant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemGlow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemLore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkullUrl.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ItemBuilder.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/ItemBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/ItemBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemGlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemGlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkull.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkullUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/theprogmatheus/minecraft/utils/itembuilder/parts/ItemSkullUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature/convert-to-gradle-project",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"

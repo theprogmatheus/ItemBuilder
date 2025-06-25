@@ -43,19 +43,15 @@ public class ItemBuilder {
 			}
 
 			try {
-				itemStackMaterial = Material.getMaterial(Integer.parseInt(firstSource));
-			} catch (Exception e1) {
+				itemStackMaterial = Material.valueOf(firstSource.toUpperCase());
+			} catch (Exception e) {
 				try {
-					itemStackMaterial = Material.valueOf(firstSource.toUpperCase());
-				} catch (Exception e2) {
-					try {
-						String materialName = firstSource.toLowerCase();
-						itemStackMaterial = Arrays.asList(Material.values()).stream()
-								.filter(material -> material.name().replace("_", "").equalsIgnoreCase(materialName))
-								.findFirst().orElse(null);
-					} catch (Exception e4) {
-						itemStackMaterial = null;
-					}
+					String materialName = firstSource.toLowerCase();
+					itemStackMaterial = Arrays.stream(Material.values())
+							.filter(material -> material.name().replace("_", "").equalsIgnoreCase(materialName))
+							.findFirst().orElse(null);
+				} catch (Exception e4) {
+					itemStackMaterial = null;
 				}
 			}
 
